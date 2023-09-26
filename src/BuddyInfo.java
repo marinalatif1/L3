@@ -2,6 +2,7 @@ public class BuddyInfo {
     private String name;
     private String number;
     private String address;
+    private String id;
 
     public BuddyInfo(String name, String number, String address) {
         this.name = name;
@@ -18,6 +19,10 @@ public class BuddyInfo {
 
     public String getNumber() {
         return number;
+    }
+
+    public String getId() {
+        return id;
     }
 
 
